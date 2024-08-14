@@ -1,0 +1,56 @@
+/* HeroComponent.css */
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  gap: 2em; /* Adjust the gap as needed */
+  width: 100%; /* Ensure the section spans the full width */
+  padding: 2em 0; /* Add padding if needed */
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero-text h3 {
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom: #ffc965 2px solid;
+}
+
+.hero-text p {
+  color: gray;
+}
+
+.hero-text h6 {
+  color: #202020;
+  font-weight: bold;
+}
+
+.hero-text .about-us-btn {
+  background-color: #202020;
+  border: none;
+  color: white;
+  font-size: small;
+  font-weight: bold;
+  padding: 12px 20px;
+  width: 10rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.hero-text .about-us-btn:hover {
+  background-color: orange;
+  color: black;
+  font-size: small;
+  font-weight: bold;
+  border: none;
+  padding: 12px 20px;
+  width: 10rem;
+  border-radius: 8px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.2s ease-in-out;
+}

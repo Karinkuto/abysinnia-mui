@@ -1,0 +1,50 @@
+/* ProductsComponent.module.css */
+.productsContainer {
+  margin-block: 5em;
+  padding-inline: 5em;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20em;
+  padding: 2em;
+  border: 2px solid #85858556;
+  border-radius: 12px;
+  opacity: .8;
+  transition: all 0.2s ease-in-out;
+  box-shadow: none;
+}
+
+.card:hover {
+  border: 2px solid #ffc965;
+  opacity: 1;
+}
+
+.button {
+  color: #202020;
+  font-size: small;
+  font-weight: bold;
+  padding: 12px 15px;
+  width: 10rem;
+  border: 1px solid #202020;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  opacity: .8;
+}
+
+.button:hover {
+  background-color: #ffc710;
+  color: black;
+  border: 1px solid transparent;
+  opacity: 1;
+}
+
+.cardContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}

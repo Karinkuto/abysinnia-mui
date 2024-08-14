@@ -1,0 +1,57 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: fit-content;
+  margin-block: 2em;
+  border-radius: 8px;
+  padding: 4em;
+  background-color: whitesmoke;
+}
+
+.footer-titles {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.footer ul {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #999999;
+  transition: all 0.1s ease-in-out;
+  font-size: smaller;
+}
+
+.footer ul li a:hover {
+  color: #434343;
+}
+
+.footer img {
+  width: 3em;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socials {
+  display: flex;
+  gap: 1em;
+  margin-top: 1em; /* Add top margin for the box containing the socials class */
+}
+
+.social-icon {
+  color: #999999;
+  transition: color 0.1s ease-in-out;
+}
+
+.social-icon:hover {
+  color: orange;
+}

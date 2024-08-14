@@ -1,0 +1,10 @@
+.icon {
+  color: #d7d7d7;
+  transition: all 0.2s ease-in-out;
+}
+.search-bar:hover .icon {
+  color: #727272;
+}
+.search-bar:focus-within .icon {
+  color: #727272;
+}
